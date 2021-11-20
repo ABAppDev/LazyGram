@@ -1,17 +1,15 @@
-a{
-  color: black !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
-.brand-logo{
-  color: black !important;
-  font-family: cursive;
-  font-style: bold, italic;
+.brand-logo {
+  color      : black !important;
+  font-family: 'Grand Hotel';
+  font-style : bold, italic;
   margin-left: 10px;
 }
 
-.log-greeting{
-  color: blueviolet !important;
+.log-greeting {
+  color     : blueviolet !important;
   font-style: bold;
-  margin: 10%;
-  font-size: 2rem;
+  margin    : 10%;
+  font-size : 2rem;
 }
