@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="nav-wrapper white">
-                <Link to="/" className="brand-logo left">LazyGram</Link>
+                <Link to="/" className="lazygram brand-logo left">LazyGram</Link>
                 <ul id="nav-mobile" className="right">
                     <li><Link to='/login'>Login</Link></li>
                     <li><Link to='/signup'>Sign Up</Link></li>

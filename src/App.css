@@ -1,20 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 
-.brand-logo {
-  color      : black !important;
+.lazygram {
   font-family: 'Grand Hotel';
   font-style : bold, italic;
+  font-size  : 2.5rem;
+
+}
+
+.brand-logo {
+  color      : black !important;
   margin-left: 10px;
+  font-size  : 1.8rem;
 }
 
-.log-greeting {
-  color     : blueviolet !important;
-  font-style: bold;
-  margin    : 10%;
-  font-size : 2rem;
+.bg-card {
+  padding        : 25px;
+  display        : flex;
+  justify-content: center;
 }
 
-.curve{
-  border-radius: 25px;
-  padding: 25px;
+.auth-card {
+  min-width : 350px;
+  max-width : 400px;
+  padding   : 25px;
+  text-align: center;
+}
+
+.element-space {
+  margin: 25px;
+}
+
+.smalltext {
+  font-size: 1.3rem;
+}
+
+.boldtext {
+  font-weight: bold;
 }
