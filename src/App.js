@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter >
       <Navbar />
       <Routes>
-        <Route exact path={process.env.PUBLIC_URL + '/lazygram' + "/"} element={<Home />} />
-        <Route exact path={process.env.PUBLIC_URL + '/lazygram' + "/login"} element={<Login />} />
-        <Route exact path={process.env.PUBLIC_URL + '/lazygram' + "/signup"} element={<Signup />} />
-        <Route exact path={process.env.PUBLIC_URL + '/lazygram' + "/profile"} element={<Profile />} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} element={<Home />} />
+        <Route exact path={process.env.PUBLIC_URL + "/login"} element={<Login />} />
+        <Route exact path={process.env.PUBLIC_URL + "/signup"} element={<Signup />} />
+        <Route exact path={process.env.PUBLIC_URL + "/profile"} element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
