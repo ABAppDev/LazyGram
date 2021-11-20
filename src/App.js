@@ -2,10 +2,10 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from './screens/Home';
-import Profile from './screens/Profile';
-import Login from './screens/Login';
-import Signup from './screens/Signup';
+import Home from './components/screens/Home';
+import Profile from './components/screens/Profile';
+import Login from './components/screens/Login';
+import Signup from './components/screens/Signup';
 
 function App() {
   return (
