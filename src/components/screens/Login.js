@@ -2,7 +2,7 @@ import React from "react"
 
 const Login = () => {
     return (
-        <h3>Login to your LazyGram</h3>
+        <h4>Login to your LazyGram</h4>
     )
 }
 export default Login
