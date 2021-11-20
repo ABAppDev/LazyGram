@@ -9,7 +9,7 @@ import Signup from './components/screens/Signup';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
