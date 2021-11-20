@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter >
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/login" element={<Login />} />
-        <Route exact path="/signup" element={<Signup />} />
-        <Route exact path="/profile" element={<Profile />} />
+        <Route  path="/" element={<Home />} />
+        <Route  path="/login" element={<Login />} />
+        <Route  path="/signup" element={<Signup />} />
+        <Route  path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
