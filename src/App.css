@@ -13,3 +13,8 @@
   margin    : 10%;
   font-size : 2rem;
 }
+
+.curve{
+  border-radius: 25px;
+  padding: 25px;
+}
