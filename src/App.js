@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route exact path="./" element={<Home />} />
-        <Route exact path="./login" element={<Login />} />
-        <Route exact path="./signup" element={<Signup />} />
-        <Route exact path="./profile" element={<Profile />} />
+        <Route exact path="/lazygram/" element={<Home />} />
+        <Route exact path="/lazygram/login" element={<Login />} />
+        <Route exact path="/lazygram/signup" element={<Signup />} />
+        <Route exact path="/lazygram/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );
